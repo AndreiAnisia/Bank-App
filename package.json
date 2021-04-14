@@ -1,0 +1,27 @@
+{
+   "name": "bank-app",
+   "version": "1.0.0",
+   "description": "bank app",
+   "default": "script.js",
+   "scripts": {
+      "start": "parcel index.html",
+      "build": "parcel build index.html --dist-dir ./dist"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/AndreiAnisia/Bank-App.git"
+   },
+   "author": "Andrei Anisia",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/AndreiAnisia/Bank-App/issues"
+   },
+   "homepage": "https://github.com/AndreiAnisia/Bank-App#readme",
+   "devDependencies": {
+      "parcel": "*"
+   },
+   "dependencies": {
+      "core-js": "^3.10.1",
+      "regenerator-runtime": "^0.13.7"
+   }
+}
